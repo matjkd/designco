@@ -1,0 +1,61 @@
+/* Resets */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	background:#666666;
+}
+
+.container { 
+	
+	clear:left; 
+	width:970px; 
+	padding:0 0 2em; 
+	margin:20px auto;
+}
+#logo {
+	
+	padding-top:70px;
+}
+
+#leftcolumn {
+	padding:0 20px;
+	float:left;
+	width:183px;
+	background:#ffffff url('template/left_column.jpg');
+	border-top: solid #ffffff 15px;
+	border-bottom: solid #ffffff 15px;
+	-webkit-box-shadow: 5px 5px 30px #444444;
+	-moz-box-shadow: 5px 5px 30px #444444;
+}
+#midcolumn {
+	width:14px;
+	background:#ffffff;
+	float:left;
+	border-top: solid #ffffff 15px;
+	border-bottom: solid #ffffff 15px;
+	background:#ffffff url('template/arrow.png') no-repeat 0 50%;
+}
+
+
+#rightcolumn {
+	padding:0 14px;
+	margin-left:10px;
+	float:left;
+	width:694px;
+	background:#ffffff;
+	border-top: solid #ffffff 15px;
+	border-bottom: solid #ffffff 15px;
+	-webkit-box-shadow: 5px 5px 30px #444444;
+	-moz-box-shadow: 5px 5px 30px #444444;
+}
