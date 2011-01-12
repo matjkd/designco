@@ -6,7 +6,7 @@ function Login()
 		parent::__Construct();
 		$id = 'login';
 		$this->load->library(array('encrypt', 'form_validation'));
-		
+		$this->load->model('content_model');
 	}
 	
 	
@@ -16,7 +16,7 @@ function Login()
 		
 		
 		
-			redirect('welcome');
+		redirect('welcome');
 	
 	
 	
@@ -57,7 +57,7 @@ function Login()
 			
 			$this->session->set_userdata($data);
 			$this->session->set_flashdata('conf_msg', "welcome.");
-			redirect('welcome/content');
+			redirect('welcome/login');
 		}
 		else // incorrect username or password
 		{
@@ -129,7 +129,7 @@ function Login()
 		$is_logged_in = $this->session->userdata('is_logged_in');
 		if(!isset($is_logged_in) || $is_logged_in == true)
 		{
-			redirect($this->uri->uri_string());
+			redirect('welcome/login');
 		}		
 		$this->index();
 	}
@@ -141,7 +141,7 @@ function Login()
 		$is_logged_in = $this->session->userdata('is_logged_in');
 		if(!isset($is_logged_in) || $is_logged_in == true)
 		{
-			redirect('welcome/content');
+			redirect('welcome/login');
 		}		
 	}	
 

@@ -24,9 +24,28 @@ class Welcome extends Controller {
 			{
 				$data['menu'] = 'home';	
 			}
-		$data['main_content'] = "content/main";
+		
 		$data['content'] = $this->content_model->get_content($data['menu']);
 		
+		if($data['menu'] == 'services')
+			{
+				$data['service_groups'] = $this->content_model->get_service_groups();
+				$data['services'] = $this->content_model->get_services();
+			} 
+		
+		$this->load->vars($data);
+		$this->load->view('template');
+	}
+	
+function login()
+	{
+		
+		$id = 'login';
+		$data['content'] =	$this->content_model->get_content($id);
+		$data['main_content'] = "user/login_form";
+		
+		
+		$data['page'] = "login";
 		$this->load->vars($data);
 		$this->load->view('template');
 	}

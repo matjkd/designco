@@ -19,6 +19,24 @@ class Content_model extends Model {
 		
 	}
 	
+	function edit_content($id)
+		{
+			
+			
+    				$content_update = array(
+    				'content' => $this->input->post('content'),
+    				'menu' => $this->input->post('menu'),
+    				'title' => $this->input->post('title')
+    				);
+					
+					
+					
+		
+		$this->db->where('menu', $id);
+		$update = $this->db->update('content', $content_update);
+		return $update;
+		}
+	
 	function get_all_news()
 	{
 			
@@ -42,6 +60,26 @@ class Content_model extends Model {
 			}
 		
 	}
+	
+	function get_service_groups()
+	{
+		
+		$query = $this->db->get('service_groups');
+		if($query->num_rows > 0);
+			{
+				return $query->result();
+			}
+	}
+	
+	function get_services()
+	{
+		$query = $this->db->get('services');
+		if($query->num_rows > 0);
+			{
+				return $query->result();
+			}
+	}
+	
 	function latest_news()
 	{
 	$this->db->where('content_type', 'news');

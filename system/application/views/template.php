@@ -25,13 +25,19 @@
 	
 		<div class="box" id="rightcolumn">
 			<img width="694px" height="234px" src="<?=base_url()?>images/slides/brochure.jpg"/>
+			<div >
+			<p>
+			<?php if(isset($main_content)) {?>
+			<?=$this->load->view($main_content)?>
+			<?php }?>
+			</p>
 			
 			<p>
 			<?php if(isset($content)) {?>
 			<?=$this->load->view('global/content')?>
 			<?php }?>
 			</p>
-			
+			</div>
 		</div>
 	
 	</div>

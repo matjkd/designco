@@ -16,10 +16,37 @@ body {
 	background:#666666;
 }
 
+.main_body {
+	margin: 0 30px 0 30px;
+}
+
+.services {
+	float:left;
+	width:200px;
+	height:260px;
+	margin:0 10px 0 0;
+	
+	
+}
+.services ul li:before {
+	
+	content: "\00BB \0020";
+	}
+.services li {
+	list-style: none;
+}
 h1 {
-	font:26px Arial, Helvetica, sans-serif;
+	font:24px Arial, Helvetica, sans-serif;
 	color: #d6de27;
 	font-weight: bolder;
+	padding-bottom:10px;
+	
+}
+h2 {
+	background:#262626;
+	color: #d6de27;
+	font-weight: bold;
+	padding:3px 0 3px 4px;
 }
 .container { 
 	
@@ -52,7 +79,9 @@ h1 {
 	background:#ffffff url('template/arrow.png') no-repeat 0 50%;
 }
 
-
+p {
+	padding-bottom:10px;
+}
 #rightcolumn {
 	padding:0 14px;
 	margin-left:10px;
@@ -66,7 +95,7 @@ h1 {
 }
 
 #menu {
-	margin-top:70px;
+	margin-top:90px;
 	margin-left:5px;
 }
 #menu a{
