@@ -14,6 +14,9 @@
 			<div id="logo">
 			<img width="191px" height="54px" src="<?=base_url()?>css/template/logo.png"/>
 			</div>
+			
+		<?=$this->load->view('global/menu')?>
+		
 		</div>
 		<div class="box" id="midcolumn">
 			
@@ -23,9 +26,11 @@
 		<div class="box" id="rightcolumn">
 			<img width="694px" height="234px" src="<?=base_url()?>images/slides/brochure.jpg"/>
 			
-			<p>test</p>
-			<p>test</p>
-			<p>test</p>
+			<p>
+			<?php if(isset($content)) {?>
+			<?=$this->load->view('global/content')?>
+			<?php }?>
+			</p>
 			
 		</div>
 	
