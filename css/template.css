@@ -47,6 +47,7 @@ h2 {
 	color: #d6de27;
 	font-weight: bold;
 	padding:3px 0 3px 4px;
+	margin-bottom: 3px;
 }
 .container { 
 	
@@ -54,6 +55,16 @@ h2 {
 	width:970px; 
 	padding:0 0 2em; 
 	margin:20px auto;
+}
+.work {
+	width:145px;
+	float:left;
+}
+.left {
+	margin-right: 37px
+}
+.right {
+	margin-right: 0px
 }
 #logo {
 	
@@ -113,4 +124,17 @@ p {
 #menu a:hover{
 	color: #d6de27;
 	text-decoration: none;
+}
+
+.gallery_image {
+	width:208px;
+	height: 147px;
+	float: left;
+	
+	margin-top:35px;
+	-webkit-box-shadow: 2px 2px 15px #444444;
+	-moz-box-shadow: 2px 2px 15px #444444;
+}
+.gallery_left {
+	margin-right: 35px
 }

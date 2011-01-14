@@ -36,6 +36,24 @@ class Welcome extends Controller {
 		$this->load->vars($data);
 		$this->load->view('template');
 	}
+	function gallery()
+	{
+		$segment_active = $this->uri->segment(3);
+		if ($segment_active!=NULL)
+			{
+				$data['menu'] = $this->uri->segment(3);
+			}
+		else
+			{
+				$data['menu'] = 'design';	
+			}
+		
+		$data['gallery'] = $segment_active;
+		
+				
+		$this->load->vars($data);
+		$this->load->view('template');
+	}
 	
 function login()
 	{
