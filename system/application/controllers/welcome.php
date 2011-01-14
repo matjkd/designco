@@ -41,11 +41,11 @@ class Welcome extends Controller {
 		$segment_active = $this->uri->segment(3);
 		if ($segment_active!=NULL)
 			{
-				$data['menu'] = $this->uri->segment(3);
+				$data['menu'] = 'work';
 			}
 		else
 			{
-				$data['menu'] = 'design';	
+				$data['menu'] = 'work';	
 			}
 		
 		$data['gallery'] = $segment_active;
