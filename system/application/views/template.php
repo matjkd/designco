@@ -36,10 +36,20 @@
 			
 			
 			<?php if(isset($content)) {?>
+			<div class="content_text">
 			<p>
 			<?=$this->load->view('global/content')?>
 			</p>
+			</div>
+			
+			<?php foreach($content as $row):?>
+			<?php if(isset($row->extra)) {?>
+			<?=$this->load->view('extra/'.$row->extra)?>
 			<?php }?>
+			<?php endforeach;?>
+			
+			<?php }?>
+			
 			
 			
 			<?php if(isset($gallery)) {?>
@@ -47,11 +57,11 @@
 			<p>
 			
 			<?=$this->load->view('gallery/'.$gallery)?>
-			<div style="clear:both; "></div>
+			<div style="clear:both;  "></div>
 			
 			</p>
 			<?php }?>
-				<div style="clear:both; height:20px; "></div>
+				<div style="clear:both; height:50px; "></div>
 			<p>
 			<div class="footer">&copy; DesignCo &amp; Hotegg Creative Design Ltd</div>
 			</p>

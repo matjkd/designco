@@ -15,8 +15,6 @@ $is_logged_in = $this->session->userdata('is_logged_in');
 
 
 
-<?php if(isset($row->extra)) {?>
-<?=$this->load->view('extra/'.$row->extra)?>
-<?php }?>
+
 
 <?php endforeach;?>

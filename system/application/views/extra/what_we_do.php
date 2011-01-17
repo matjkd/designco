@@ -1,4 +1,4 @@
-<div class="main_body">
+
 <?php foreach($service_groups as $row):?>
 <div class="services">
 <h2><?=$row->group_name?></h2>
@@ -15,4 +15,3 @@
 	</ul>
 </div>
 <?php endforeach;?>
-</div>

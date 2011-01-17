@@ -1,4 +1,4 @@
-
+<div style="height:10px;"></div>
 <div class="work left">
 <h2>Design</h2>
 <a href="<?=base_url()?>welcome/gallery/design"><img  height="145px" src="<?=base_url()?>images/ourwork/design.jpg"/></a>
