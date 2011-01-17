@@ -1,3 +1,4 @@
+<h1>Photography</h1>
 <?php $location = "photography"; ?>
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/01_Spit_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/01_Spit_Thumb.jpg"></a>
@@ -6,7 +7,7 @@
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/02_Typhoon_Thumb.jpg"></a>
 
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/03_Hornet_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
-<img align="left" class="gallery_image right" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/03_Colourlink_Thumb.jpg"></a>
+<img align="left" class="gallery_image right" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/03_Hornet_Thumb.jpg"></a>
 
 
 
@@ -59,3 +60,6 @@
 
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/17_KA_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/17_KA_Thumb.jpg"></a>
+
+<a  href="<?=base_url()?>images/ourwork/<?=$location?>/18_FordInterior_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
+<img align="left" class="gallery_image right" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/18_FordInterior_Thumb.jpg"></a>

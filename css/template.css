@@ -12,12 +12,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 body {
-	font: 14px/21px Arial, Helvetica, sans-serif;
+	font: 14px/19px Arial, Helvetica, sans-serif;
 	background:#666666;
 }
-
+.body_container {
+	min-height:400px;
+}
 .main_body {
 	margin: 0 30px 0 30px;
+	
 }
 
 .services {
@@ -39,7 +42,7 @@ h1 {
 	font:24px Arial, Helvetica, sans-serif;
 	color: #d6de27;
 	font-weight: bolder;
-	padding-bottom:10px;
+	padding-bottom:15px;
 	
 }
 h2 {
@@ -54,21 +57,22 @@ h2 {
 	clear:left; 
 	width:970px; 
 	padding:0 0 2em; 
-	margin:20px auto;
+	margin:40px auto;
 }
 .work {
 	width:145px;
 	float:left;
 }
 .left {
-	margin-right: 37px
+	margin-right: 18px
 }
 .right {
 	margin-right: 0px
 }
 #logo {
 	
-	padding-top:70px;
+	padding-top:74px;
+	margin-left:5px;
 }
 
 #leftcolumn {
@@ -83,11 +87,10 @@ h2 {
 }
 #midcolumn {
 	width:14px;
-	background:#ffffff;
 	float:left;
 	border-top: solid #ffffff 15px;
 	border-bottom: solid #ffffff 15px;
-	background:#ffffff url('template/arrow.png') no-repeat 0 50%;
+	background:#ffffff url('template/arrow.png') no-repeat bottom  0px;
 }
 
 p {
@@ -95,6 +98,7 @@ p {
 }
 #rightcolumn {
 	padding:0 14px;
+	position:relative;
 	margin-left:10px;
 	float:left;
 	width:694px;
@@ -106,16 +110,19 @@ p {
 }
 
 #menu {
-	margin-top:90px;
+	margin-top:80px;
 	margin-left:5px;
 }
 #menu a{
 	color: #eeeeee;
 	
 	
-	font-size:12px;
+	font-size:11px;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+#menu ul {
+	margin-left:10px;
 }
 #menu ul li {
 	list-style: none;
@@ -130,14 +137,20 @@ p {
 }
 
 .gallery_image {
-	width:208px;
-	height: 147px;
+	width:190px;
+	height: 133px;
 	float: left;
 	
-	margin-top:35px;
+	margin-top:30px;
 	-webkit-box-shadow: 2px 2px 15px #444444;
 	-moz-box-shadow: 2px 2px 15px #444444;
 }
 .gallery_left {
-	margin-right: 35px
+	margin-right: 30px
+}
+.footer {
+	font-size:12px;
+	position:absolute;
+	
+	bottom:22px;
 }

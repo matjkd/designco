@@ -1,3 +1,4 @@
+<h1>Design</h1>
 <?php $location = "design"; ?>
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/01_Havens_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/01_Havens_Thumb.jpg"></a>

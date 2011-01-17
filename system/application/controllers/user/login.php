@@ -64,7 +64,7 @@ function Login()
 			$id = 'login';
 			$data['content'] =	$this->content_model->get_content($id);
 			$data['title'] = 'Login Failed';
-			$data['main'] = 'user/login_failed';
+			$data['main_content'] = 'user/login_failed';
 			$this->load->vars($data);
 			$this->load->view('template');
 			

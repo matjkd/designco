@@ -1,3 +1,4 @@
+<h1>Websites</h1>
 <?php $location = "websites"; ?>
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/01_Approved_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/01_Approved_Thumb.jpg"></a>
@@ -22,5 +23,5 @@
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/07_SWB_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/07_SWB_Thumb.jpg"></a>
 
-<a  href="<?=base_url()?>images/ourwork/<?=$location?>/branding.jpg" rel="prettyPhoto[pp_gal]">
+<a  href="<?=base_url()?>images/ourwork/<?=$location?>/08_Plush_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/08_Plush_Thumb.jpg"></a>

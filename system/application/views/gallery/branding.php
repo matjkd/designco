@@ -1,3 +1,4 @@
+<h1>Branding</h1>
 <?php $location = "branding"; ?>
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/01_Autosafe_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/01_Autosafe_Thumb.jpg"></a>

@@ -1,3 +1,4 @@
+
 <div class="work left">
 <h2>Design</h2>
 <a href="<?=base_url()?>welcome/gallery/design"><img  height="145px" src="<?=base_url()?>images/ourwork/design.jpg"/></a>
@@ -18,4 +19,4 @@
 <a href="<?=base_url()?>welcome/gallery/photography"><img height="145px"  src="<?=base_url()?>images/ourwork/photography.jpg"/></a>
 </div>
 
-<div style="clear:both; height:100px;"></div>
+<div style="clear:both;"></div>

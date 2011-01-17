@@ -4,7 +4,12 @@
 			<li><a href="<?=base_url()?>welcome/main/about">About Us</a></li>
 			<li><a href="<?=base_url()?>welcome/main/services">What we do</a></li>
 			<li><a href="<?=base_url()?>welcome/main/work">Our Work</a>
-			<?php  if($menu == "work") {?>
+			
+			<?php  
+			if(isset($menu) && $menu == "work")
+			
+			{
+			?>
 			<ul>
 			<li><a href="<?=base_url()?>welcome/gallery/design">Design</a></li>
 			<li><a href="<?=base_url()?>welcome/gallery/websites">Websites</a></li>

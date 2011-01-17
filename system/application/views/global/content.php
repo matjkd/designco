@@ -1,4 +1,4 @@
-<div class="main_body">
+
 <?php foreach($content as $row):?>
 <h1><?=$row->title?></h1>
 
@@ -14,7 +14,6 @@ $is_logged_in = $this->session->userdata('is_logged_in');
 <?=$row->content?>
 
 
-</div>
 
 <?php if(isset($row->extra)) {?>
 <?=$this->load->view('extra/'.$row->extra)?>

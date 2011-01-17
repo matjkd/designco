@@ -10,7 +10,7 @@ class Welcome extends Controller {
 	
 	function index()
 	{
-		$this->load->view('template');
+		redirect('welcome/main/home', 'refresh');
 	}
 	
 	function main()
