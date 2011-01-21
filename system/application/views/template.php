@@ -27,6 +27,7 @@
 			<?=$this->load->view('slideshow')?>
 			<div class="body_container">
 			<div class="main_body">
+			<?=$this->load->view('global/warning')?>
 			<?php if(isset($main_content)) {?>
 			<p>
 				<?=$this->load->view($main_content)?>
