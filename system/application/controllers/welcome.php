@@ -55,6 +55,25 @@ class Welcome extends Controller {
 		$this->load->view('template');
 	}
 	
+	function clients()
+	{
+		$segment_active = $this->uri->segment(3);
+		if ($segment_active!=NULL)
+			{
+				$data['menu'] = 'clients';
+			}
+		else
+			{
+				$data['menu'] = 'clients';	
+			}
+		
+		$data['gallery'] = $segment_active;
+		
+				
+		$this->load->vars($data);
+		$this->load->view('template');
+	}
+	
 function login()
 	{
 		

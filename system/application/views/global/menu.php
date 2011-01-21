@@ -18,7 +18,7 @@
 			</ul>
 			<?php }?>
 			</li>
-			<li><a href="<?=base_url()?>welcome/main/clients">Our Clients</a></li>
+			<li><a href="<?=base_url()?>welcome/clients/clients">Our Clients</a></li>
 			<li><a href="<?=base_url()?>welcome/main/contact">Contact Us</a></li>
 			<li><a href="<?=base_url()?>welcome/main/links">Links</a></li>
 			</ul>

@@ -7,7 +7,7 @@
  
   function initialize() {
     var mapOptions = {
-      zoom: 16,
+      zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       center: nash
     };
@@ -33,7 +33,35 @@
     }
   }
 </script> 
+<div style="width:280px; float:left;">
+<h3>01245 325 787</h3>
+<h3><a href="mailto:info@designco.org.uk">info@designco.org.uk</a></h3>
+<br/>
+DesignCo Essex &amp; London<br/>
+60 Elm Road<br/>
+South Woodham Ferrers<br/>
+Chelmsford<br/>
+Essex cm3 5qb<br/>
 
-<div id="map_canvas" style="width: 400px; height: 300px;">map div</div>
+<?=form_open('email/send');?>
+<br/>
+Your Email:<br/>
+<?=form_input('email')?><br/>
+Subject:<br/>
+<?=form_input('subject')?><br/>
+Message:<br/>
+<?=form_textarea('message')?><br/>
+<div id="contact_submit"><?=form_submit('submit', 'Submit')?></div><br/>
+<?=form_close()?>
 
-er 
+</div>
+<div id="map_canvas" style="width:340px; height: 300px; float:left;"></div>
+
+<div style="width:340px; float:left;"><h3>Stay in Touch!</h3>
+<br/>
+
+<img style="float:left" src="<?=base_url()?>images/social/linkedin.png"/>
+<img style="float:left" src="<?=base_url()?>images/social/facebook.png"/>
+<img style="float:left" src="<?=base_url()?>images/social/twitter.png"/>
+
+</div>

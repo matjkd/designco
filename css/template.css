@@ -94,7 +94,11 @@ h2 {
 	border-bottom: solid #ffffff 15px;
 	background:#ffffff url('template/arrow.png') no-repeat bottom;
 }
-
+#map_canvas {
+	-webkit-box-shadow: 2px 2px 15px #444444;
+	-moz-box-shadow: 2px 2px 15px #444444;
+	margin-bottom: 10px;
+}
 p {
 	padding-bottom:10px;
 }
@@ -118,7 +122,7 @@ p {
 #menu a{
 	color: #eeeeee;
 	
-	
+	font-weight: normal;
 	font-size:11px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -159,4 +163,23 @@ p {
 }
 .content_text {
 	margin-right: 10px;
+}
+h3 {
+	font-weight:bolder;
+	margin:0;
+	padding:0;
+}
+a {
+	color:#111111;
+	font-weight: bold;
+	text-decoration:none;
+}
+input, textarea {
+	width:250px;
+}
+textarea {
+	height:100px;
+}
+#contact_submit input {
+	width:100px;
 }

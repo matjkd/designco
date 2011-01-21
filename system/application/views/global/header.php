@@ -17,7 +17,12 @@ google.load("jqueryui", "1.8.7");
 <script type="text/javascript" src="<?=base_url()?>js/wymeditor/jquery.wymeditor.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.cycle.all.min.js"></script>
-
+<script type="text/javascript">
+	$(function() {
+		$("button, input:submit").button();
+		
+		});
+	</script>
 
 <script type="text/javascript" src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=true&amp;key=ABQIAAAAo44bloMTDYnLwRZTm304PxR7lPs-HPrUFWP7WIAW5FaMW6-CLRRicHwiXsWILdgeE78Lb4tzUFPHiw" type="text/javascript"></script>
 
