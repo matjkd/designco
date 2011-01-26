@@ -10,8 +10,19 @@ class Welcome extends Controller {
 	
 	function index()
 	{
-		redirect('welcome/main/home', 'refresh');
+		redirect('welcome/home', 'refresh');
 	}
+
+	function home()
+	{
+		$data['menu'] = 'home';	
+		$data['content'] = $this->content_model->get_content($data['menu']);
+		$data['slideshow'] = 'header/frontpage';
+		$data['background'] = 'images/icons/homepage_background.jpg';	
+		$this->load->vars($data);
+		$this->load->view('template');
+	}
+	
 	
 	function main()
 	{
@@ -32,7 +43,7 @@ class Welcome extends Controller {
 				$data['service_groups'] = $this->content_model->get_service_groups();
 				$data['services'] = $this->content_model->get_services();
 			} 
-		
+		$data['slideshow'] = 'header/slideshow';	
 		$this->load->vars($data);
 		$this->load->view('template');
 	}
@@ -49,7 +60,7 @@ class Welcome extends Controller {
 			}
 		
 		$data['gallery'] = $segment_active;
-		
+		$data['slideshow'] = 'header/slideshow';	
 				
 		$this->load->vars($data);
 		$this->load->view('template');
@@ -69,7 +80,7 @@ class Welcome extends Controller {
 		
 		$data['gallery'] = $segment_active;
 		
-				
+		$data['slideshow'] = 'header/slideshow';			
 		$this->load->vars($data);
 		$this->load->view('template');
 	}

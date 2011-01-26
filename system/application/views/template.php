@@ -23,8 +23,11 @@
 						
 		</div>
 	
-		<div class="box" id="rightcolumn">
-			<?=$this->load->view('slideshow')?>
+		<div class="box" id="rightcolumn" <?php if(isset($background)) {?>style="background:url(<?=base_url()?><?=$background?>) bottom;" <?php }?>>
+			
+		<?php if(isset($slideshow)) {?>
+		<?=$this->load->view($slideshow)?>
+		<?php } ?>
 			<div class="body_container">
 			<div class="main_body">
 			<?=$this->load->view('global/warning')?>
@@ -62,7 +65,7 @@
 			
 			</p>
 			<?php }?>
-				<div style="clear:both; height:50px; "></div>
+				<div style="clear:both; height:30px; "></div>
 			<p>
 			<div class="footer">&copy; DesignCo &amp; Hotegg Creative Design Ltd</div>
 			</p>

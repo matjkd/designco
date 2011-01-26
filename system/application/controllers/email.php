@@ -38,7 +38,7 @@ class Email extends My_Controller {
 				{
 		
 					$this->email->from('info@designco.org.uk', 'DesignCo Website');
-					$this->email->to('mat@redstudio.co.uk'); 
+					$this->email->to('info@hotegg.co.uk'); 
 					
 					$this->email->subject('DesignCo Contact Form');
 					$this->email->message("The contact form has been filled in
@@ -51,7 +51,8 @@ class Email extends My_Controller {
     			
 					");	
 					$this->email->send();
-					$this->session->set_flashdata('message', 'Your message has been sent');
+					$debug = $this->email->print_debugger();
+					$this->session->set_flashdata('message', 'Your message has been sent. Thank you.');
 					redirect('welcome/main/contact', 'refresh');
 				}	
 	}
