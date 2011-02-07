@@ -19,4 +19,4 @@
 <a href="<?=base_url()?>welcome/gallery/photography"><img height="145px"  src="<?=base_url()?>images/ourwork/photography.jpg"/></a>
 </div>
 
-<div style="clear:both;"></div>
+<div style="clear:both; height:100px"></div>

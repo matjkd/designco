@@ -12,11 +12,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 body {
-	font: 14px/19px Arial, Helvetica, sans-serif;
+	font: 13px/18px Arial, Helvetica, sans-serif;
 	background:#666666;
 }
 .body_container {
-	min-height:400px;
+	min-height:300px;
 }
 .main_body {
 	margin: 0 30px 0 30px;
@@ -26,7 +26,7 @@ body {
 .services {
 	float:left;
 	width:200px;
-	height:260px;
+	height:230px;
 	margin:10px 10px 0px 0;
 	
 	
@@ -182,4 +182,7 @@ textarea {
 }
 #contact_submit input {
 	width:100px;
+}
+.pp_nav {
+	visibility:hidden;
 }

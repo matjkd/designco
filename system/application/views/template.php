@@ -23,7 +23,7 @@
 						
 		</div>
 	
-		<div class="box" id="rightcolumn" <?php if(isset($background)) {?>style="background:url(<?=base_url()?><?=$background?>) bottom;" <?php }?>>
+		<div class="box" id="rightcolumn" <?php if(isset($background)) {?>style="background:url(<?=base_url()?><?=$background?>) 50% 0%;" <?php }?>>
 			
 		<?php if(isset($slideshow)) {?>
 		<?=$this->load->view($slideshow)?>
@@ -75,28 +75,8 @@
 	
 	</div>
 
-<!--[if !IE]><!-->
-<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-			$("a[rel^='prettyPhoto']").prettyPhoto();
-		});
 
-	
-</script>   
-<!-- <![endif]--> 
-
-<!--[if gte IE 7]>
-<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-			$("a[rel^='prettyPhoto']").prettyPhoto();
-		});
-
-		
-</script> 
-<![endif]-->
-<script type="text/javascript"> 
-$(document).ready(function(){ $('#equalize').equalHeights(); });
-</script> 	
+<?=$this->load->view('global/footer')?>	
 </body>
 
 </html>
