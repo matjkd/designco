@@ -1,38 +1,4 @@
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
-<script type="text/javascript"> 
-  var nash = new google.maps.LatLng(51.649486,0.603056);
-  var parliament = new google.maps.LatLng(51.649486,0.603056);
-  var marker;
-  var map;
- 
-  function initialize() {
-    var mapOptions = {
-      zoom: 12,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      center: nash
-    };
- 
-    map = new google.maps.Map(document.getElementById("map_canvas"),
-            mapOptions);
-          
-    marker = new google.maps.Marker({
-      map:map,
-      draggable:true,
-      animation: google.maps.Animation.DROP,
-      position: parliament
-    });
-    google.maps.event.addListener(marker, 'click', toggleBounce);
-  }
- 
-  function toggleBounce() {
- 
-    if (marker.getAnimation() != null) {
-      marker.setAnimation(null);
-    } else {
-      marker.setAnimation(google.maps.Animation.BOUNCE);
-    }
-  }
-</script> 
+
 <div style="width:280px; float:left;">
 <h3>01245 325 787</h3>
 <h3><a href="mailto:info@designco.org.uk">info@designco.org.uk</a></h3>
