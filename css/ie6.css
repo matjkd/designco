@@ -1,0 +1,25 @@
+#rightcolumn {
+
+	border-bottom: solid #ffffff 12px;
+
+}
+
+#leftcolumn {
+	padding:0 10px;
+	
+}
+#menu ul {
+	margin-left:10px;
+}
+#logo {
+	
+	margin-left:10px;
+}
+
+.gallery_image {
+	
+	border:1px solid #aaaaaa;
+}
+.gallery_left {
+	margin-right: 24px
+}
