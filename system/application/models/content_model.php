@@ -26,7 +26,8 @@ class Content_model extends Model {
     				$content_update = array(
     				'content' => $this->input->post('content'),
     				'menu' => $this->input->post('menu'),
-    				'title' => $this->input->post('title')
+    				'title' => $this->input->post('title'),
+					'extra' => $this->input->post('extra')
     				);
 					
 					

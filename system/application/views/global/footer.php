@@ -4,17 +4,18 @@
   
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="<?=base_url()?>js/libs/jquery-1.5.0.js"%3E%3C/script%3E'))</script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="<?=base_url()?>js/libs/jquery-1.5.min.js"%3E%3C/script%3E'))</script>
 
 <script>
 
 google.load("jqueryui", "1.8.7");
 </script>
 
-<script type="text/javascript" src="<?=base_url()?>js/scripts.js"></script>
+
 <script type="text/javascript" src="<?=base_url()?>js/wymeditor/jquery.wymeditor.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="<?=base_url()?>js/scripts.js"></script>
 <script type="text/javascript"> 
 	$(function() {
 		$("button, input:submit").button();
@@ -56,9 +57,7 @@ google.load("jqueryui", "1.8.7");
 		
 </script> 
 <![endif]-->
-<script type="text/javascript"> 
-$(document).ready(function(){ $('#equalize').equalHeights(); });
-</script> 
+
 
 
 

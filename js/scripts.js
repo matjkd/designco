@@ -103,3 +103,24 @@ Number.prototype.pxToEm = String.prototype.pxToEm = function(settings){
 	var result = (settings.reverse == true) ? (pxVal * scopeVal).toFixed(2) + 'px' : (pxVal / scopeVal).toFixed(2) + 'em';
 	return result;
 };
+
+
+//wymeditor
+jQuery(function() {
+    jQuery('.wymeditor').wymeditor();
+});
+
+//slideshow
+$(document).ready(function() {
+    $('.cycle').cycle({
+		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+		speedIn:  2000, 
+	    speedOut: 2000, 
+	   timeout:   5000 
+	});
+	$('.cycle').css("display", "block");
+});
+
+
+//make equal heights
+$(document).ready(function(){ $('#equalize').equalHeights(); });

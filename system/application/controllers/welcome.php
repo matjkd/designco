@@ -16,6 +16,7 @@ class Welcome extends Controller {
 	function home()
 	{
 		$data['menu'] = 'home';	
+		$data['title'] = 'Welcome to DesignCo';	
 		$data['content'] = $this->content_model->get_content($data['menu']);
 		$data['slideshow'] = 'header/frontpage';
 		$data['background'] = 'images/icons/homepage_background.jpg';	
@@ -38,6 +39,12 @@ class Welcome extends Controller {
 		
 		$data['content'] = $this->content_model->get_content($data['menu']);
 		
+		foreach($data['content'] as $row):
+			
+			$data['title'] = $row->title;
+		
+		endforeach;
+		
 		if($data['menu'] == 'services')
 			{
 				$data['service_groups'] = $this->content_model->get_service_groups();
@@ -58,7 +65,7 @@ class Welcome extends Controller {
 			{
 				$data['menu'] = 'work';	
 			}
-		
+		$data['title'] = $segment_active;
 		$data['gallery'] = $segment_active;
 		$data['slideshow'] = 'header/slideshow';	
 				
@@ -79,7 +86,7 @@ class Welcome extends Controller {
 			}
 		
 		$data['gallery'] = $segment_active;
-		
+		$data['title'] = "Our Clients";
 		$data['slideshow'] = 'header/slideshow';			
 		$this->load->vars($data);
 		$this->load->view('template');
@@ -91,7 +98,7 @@ function login()
 		$id = 'login';
 		$data['content'] =	$this->content_model->get_content($id);
 		$data['main_content'] = "user/login_form";
-		
+		$data['title'] = "Login to Design Co";
 		
 		$data['page'] = "login";
 		$this->load->vars($data);

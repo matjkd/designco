@@ -1,10 +1,3 @@
-<script type="text/javascript">
-jQuery(function() {
-    jQuery('.wymeditor').wymeditor();
-});
-</script>
-
-
 <?php foreach($content as $row):?>
 
 
@@ -17,6 +10,8 @@ Title: <?=form_input('title', $row->title)?>
 <textarea cols=65 rows=20 name="content" id="content" class='wymeditor'><?=$row->content?></textarea>
 <br/>
 <?=form_hidden('menu', $row->menu)?>
+
+Extra: <?=form_input('extra', $row->extra)?><br/>
 <input type="submit" class="wymupdate" />
 <?=form_close()?> 
 <?php endforeach;?>
