@@ -123,7 +123,7 @@ $(document).ready(function() {
 
 
 //make equal heights
-$(document).ready(function(){ $('#equalize').equalHeights(); });
+$(window).load(function(){ $('#equalize').equalHeights(); });
 
 /*
  

@@ -67,7 +67,7 @@
 			<?php }?>
 				<div style="clear:both; height:30px; "></div>
 			<p>
-			<div class="footer">&copy; DesignCo &amp; Hotegg Creative Design Ltd</div>
+			<div class="footer">&copy; DesignCo</div>
 			</p>
 			</div>
 			</div>

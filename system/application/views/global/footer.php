@@ -15,7 +15,7 @@ google.load("jqueryui", "1.8.7");
 <script type="text/javascript" src="<?=base_url()?>js/wymeditor/jquery.wymeditor.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.prettyPhoto.js"></script>
 <script type="text/javascript" src="<?=base_url()?>js/jquery.cycle.all.min.js"></script>
-<script type="text/javascript" src="<?=base_url()?>js/scripts.js"></script>
+
 <script type="text/javascript"> 
 	$(function() {
 		$("button, input:submit").button();
@@ -29,7 +29,7 @@ google.load("jqueryui", "1.8.7");
   
   <!-- scripts concatenated and minified via ant build script-->
   <script src="<?=base_url()?>js/plugins.js"></script>
-  <script src="<?=base_url()?>js/script.js"></script>
+  <script src="<?=base_url()?>js/scripts.js"></script>
   <!-- end concatenated and minified scripts-->
   
   
