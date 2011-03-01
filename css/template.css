@@ -80,6 +80,7 @@ h2 {
 	padding:0 20px;
 	float:left;
 	width:183px;
+	height:645px;
 	background:#ffffff url('template/left_column.jpg');
 	border-top: solid #ffffff 15px;
 	border-bottom: solid #ffffff 15px;
@@ -88,6 +89,7 @@ h2 {
 }
 #midcolumn {
 	width:13px;
+	height:645px;
 	float:left;
 	background:#ffffff;
 	border-top: solid #ffffff 15px;
@@ -153,6 +155,12 @@ p {
 }
 .gallery_left {
 	margin-right: 30px
+}
+#slideshow
+{
+height:208px;
+width:693px;
+background:#111111;
 }
 .footer {
 	font-size:11px;

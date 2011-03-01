@@ -1,5 +1,5 @@
-
-<div class="cycle" style="display:none;">
+<div id="slideshow">
+<div class="cycle"  style="display:none;">
 <img src="<?=base_url()?>images/banners/annual_reports.jpg"  width="693px" height="208px">
 <img src="<?=base_url()?>images/banners/branding.jpg"  width="693px" height="208px">
 <img src="<?=base_url()?>images/banners/brochure_design.jpg"  width="693px" height="208px">
@@ -9,5 +9,6 @@
 <img src="<?=base_url()?>images/banners/marketing_materials.jpg"  width="693px" height="208px">
 <img src="<?=base_url()?>images/banners/photography.jpg"  width="693px" height="208px">
 <img src="<?=base_url()?>images/banners/websites.jpg"  width="693px" height="208px">
+</div>
 </div>
 <div style="height:35px"></div>
