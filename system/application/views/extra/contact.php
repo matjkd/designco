@@ -26,8 +26,8 @@ Message:<br/>
 <div style="width:340px; float:left;"><h3>Stay in Touch!</h3>
 <br/>
 
-<img style="float:left" src="<?=base_url()?>images/social/linkedin.png"/>
-<img style="float:left" src="<?=base_url()?>images/social/facebook.png"/>
+<a href=" http://www.linkedin.com/company/designco-essex-&-london" target="_blank"><img style="float:left" src="<?=base_url()?>images/social/linkedin.png"/></a>
+<a href="http://www.facebook.com/pages/DesignCo-Essex-London/222964467714146" target="_blank"><img style="float:left" src="<?=base_url()?>images/social/facebook.png"/></a>
 <img style="float:left" src="<?=base_url()?>images/social/twitter.png"/>
 
 </div>

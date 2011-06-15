@@ -67,8 +67,8 @@
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/16_Mini_ENLARGE copy.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/16_Mini_Thumb.jpg"></a>
 
-<a  href="<?=base_url()?>images/ourwork/<?=$location?>/18_FordInterior_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
-<img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/18_FordInterior_Thumb.jpg"></a>
+<a  href="<?=base_url()?>images/ourwork/<?=$location?>/19_Corporate_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
+<img align="left" class="gallery_image gallery_left" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/19_Corporate_Thumbnail.jpg"></a>
 
 <a  href="<?=base_url()?>images/ourwork/<?=$location?>/17_KA_ENLARGE.jpg" rel="prettyPhoto[pp_gal]">
 <img align="left" class="gallery_image right" src="<?=base_url()?>images/ourwork/<?=$location?>/thumbs/17_KA_Thumb.jpg"></a>
