@@ -12,7 +12,7 @@
 		<div class="box" id="leftcolumn">
 			
 			<div id="logo">
-			<img width="185px" height="52px" src="https://s3-eu-west-1.amazonaws.com/hotegg/Hot_Egg_LogoNEW.png"/>
+			<img width="185px"  src="https://s3-eu-west-1.amazonaws.com/hotegg/Hot_Egg_LogoNEW.png"/>
 			</div>
 			
 		<?=$this->load->view('global/menu')?>
