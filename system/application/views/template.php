@@ -67,7 +67,7 @@
 			<?php }?>
 				<div style="clear:both; height:30px; "></div>
 			<p>
-			<div class="footer">&copy; Hotegg</div>
+			<div class="footer">&copy; Hot Egg Creative Design Ltd</div>
 			</p>
 			</div>
 			</div>

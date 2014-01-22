@@ -3,7 +3,7 @@
 <h3>01245 325 787</h3>
 <h3><a href="mailto:info@hotegg.co.uk">info@hotegg.co.uk</a></h3>
 <br/>
-Hotegg Creative Design Ltd<br/>
+Hot Egg Creative Design Ltd<br/>
 60 Elm Road<br/>
 South Woodham Ferrers<br/>
 Chelmsford<br/>
