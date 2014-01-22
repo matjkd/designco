@@ -1,9 +1,9 @@
 
 <div style="width:280px; float:left;">
 <h3>01245 325 787</h3>
-<h3><a href="mailto:info@designco.org.uk">info@designco.org.uk</a></h3>
+<h3><a href="mailto:info@hotegg.co.uk">info@hotegg.co.uk</a></h3>
 <br/>
-DesignCo Essex &amp; London<br/>
+Hotegg Creative Design Ltd<br/>
 60 Elm Road<br/>
 South Woodham Ferrers<br/>
 Chelmsford<br/>

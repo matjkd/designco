@@ -37,10 +37,10 @@ class Email extends My_Controller {
 			else
 				{
 		
-					$this->email->from('info@designco.org.uk', 'DesignCo Website');
+					$this->email->from('info@hotegg.co.uk', 'Hotegg Website');
 					$this->email->to('info@hotegg.co.uk'); 
 					
-					$this->email->subject('DesignCo Contact Form');
+					$this->email->subject('Hotegg Contact Form');
 					$this->email->message("The contact form has been filled in
 					
 					
