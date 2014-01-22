@@ -12,7 +12,7 @@
 		<div class="box" id="leftcolumn">
 			
 			<div id="logo">
-			<img width="185px" height="52px" src="<?=base_url()?>css/template/logo.png"/>
+			<img width="185px" height="52px" src="https://s3-eu-west-1.amazonaws.com/hotegg/Hot_Egg_LogoNEW.png"/>
 			</div>
 			
 		<?=$this->load->view('global/menu')?>
@@ -67,7 +67,7 @@
 			<?php }?>
 				<div style="clear:both; height:30px; "></div>
 			<p>
-			<div class="footer">&copy; DesignCo</div>
+			<div class="footer">&copy; Hotegg</div>
 			</p>
 			</div>
 			</div>
